@@ -48,8 +48,8 @@ ext {
     rxAndroidVersion = '2.0.1'
     supportVersion = "27.1.1"
     timberVersion = "4.6.0"
-    rxBindingVersion = '1.0.0'
-    dataBindingVersion = '2.3.3'
+//    rxBindingVersion = '1.0.0'
+//    dataBindingVersion = '2.3.3'
 }
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
@@ -62,7 +62,7 @@ dependencies {
     implementation "com.android.support:cardview-v7:$supportVersion"
     implementation "com.android.support:design:$supportVersion"
     implementation "com.jakewharton.timber:timber:$timberVersion"
-    implementation "com.android.databinding:compiler:$dataBindingVersion"
+//    implementation "com.android.databinding:compiler:$dataBindingVersion"
     implementation 'com.android.support.constraint:constraint-layout:1.0.2'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
